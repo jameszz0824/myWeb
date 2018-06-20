@@ -1,0 +1,45 @@
+﻿html,body{width:100%;height:69.69rem;overflow-x: hidden;}
+body{background: url(images/bg_dwH5.jpg) no-repeat center top;height: 69.69rem;width:100%;background-size: 100%;position:relative;margin:0;padding: 0}
+/*龙舟区域*/
+.river{top:24rem;height:4.5rem;position: relative;}
+/*8条船*/
+.boat_01{position: absolute;width:1.36rem;height:1.5rem;top: 0.7rem;left: 5.2rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_02{position: absolute;width:1.36rem;height:1.5rem;top: 2.4rem;left: 4.8rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_03{position: absolute;width:1.36rem;height:1.5rem;top: 0.5rem;left: 3.75rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_04{position: absolute;width:1.36rem;height:1.5rem;top: 2.7rem;left: 3.3rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_05{position: absolute;width:1.36rem;height:1.5rem;top: 0.64rem;left: 2.2rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_06{position: absolute;width:1.36rem;height:1.5rem;top: 2.6rem;left: 1.7rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_07{position: absolute;width:1.36rem;height:1.5rem;top: 0.7rem;left: 0.5rem;background: url(images/boatH5.png) no-repeat TOP;}
+.boat_08{position: absolute;width:1.36rem;height:1.5rem;top: 2.4rem;left: 0.1rem;background: url(images/boatH5.png) no-repeat TOP;}
+/*船内*/
+.river>div{background-size: 100%}
+.mishu{width: 1.1rem;color: #bc2300;text-align: center;font-size: 0.2rem;margin-top: 0.64rem;height:0;}
+.head{width: 0.41rem;height: 0.41rem;border-radius: 0.205rem;margin-left: 0.37rem;margin-top: -0.185rem;}
+.ico{border-radius:50%;width:100%}
+.river .nick{width: 1rem;height: 0.3rem; color:white;text-align: center;font-family: "Microsoft YaHei";margin-top: 0;margin-left: 0.06rem;overflow: hidden;white-space: nowrap;font-size: 0.2rem;}
+
+/*家族榜*/
+.family{width:5.8rem;height:5.8rem;position: relative;top: 26.8rem;margin: auto}
+.list_family{margin: 0;padding: 0;font-size: 0.24rem;color:#2f9669;line-height: 0.56rem;list-style:none;}
+.list_family li{height:0.56rem}
+.family .seq{width: 1.2rem;text-align: center;display: inline-block;font-size: 0.2rem;color:white;background:url(images/greenH5.png) no-repeat center;background-size: 38%}
+.family li:nth-child(-n + 3) .seq{background-image:url(images/greenH5_top3.png);color:#2f9669;background-size: 80%}
+.name{margin-left: 0.8rem;width: 2.37rem;display: inline-block;overflow:  hidden;vertical-align: middle;white-space: nowrap;}
+
+/*主播榜*/
+.zb{width: 7.2rem;height: 3.8rem;position: relative;top: 44.1rem;margin: auto;}
+.zblist{margin: 0;padding: 0;font-size: 0.24rem;color:#2f9669;line-height: 0.5rem;list-style:none;}
+.zblist li{height:0.5rem;}
+.zb .seq{width: 1.2rem;text-align: center;display: inline-block;font-size: 0.24rem;color:white;background:url(images/greenH5.png) no-repeat center;background-size: 28%;}
+.zb li:nth-child(-n + 3) .seq{background-image:url(images/greenH5_top3.png);color:#2f9669;background-size: 60%}
+.zb .nick{margin-left: 1.15rem;width: 2.4rem;display: inline-block;overflow:  hidden;vertical-align: middle;white-space: nowrap;}
+
+/*用户榜*/
+.yh{width: 7.2rem;height: 3.8rem;position: relative;top: 45.4rem;margin: auto;}
+.yhlist{margin: 0;padding: 0;font-size: 0.24rem;color:#967f2f;line-height: 0.5rem;list-style:none;}
+.yhlist li{height:0.5rem;}
+.yh .seq{width: 1.2rem;text-align: center;display: inline-block;font-size: 0.24rem;color:white;background:url(images/yellowH5.png) no-repeat center;background-size: 28%;}
+.yh li:nth-child(-n + 3) .seq{background-image:url(images/yellowH5_top3.png);color:#2f9669;background-size: 60%}
+.yh .nick{margin-left: 1.15rem;width: 2.4rem;display: inline-block;overflow:  hidden;vertical-align: middle;white-space: nowrap;}
+
+

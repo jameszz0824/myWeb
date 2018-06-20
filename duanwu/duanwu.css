@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html,body{width:100%;height:10188px;overflow-x: hidden;}
+body{margin: 0;padding: 0;background:url(images/bg_dw.jpg) no-repeat center top #2f9669}
+
+
+/*比龙舟区域*/
+.river{width: 1320px;height:800px;position: relative;top:3825px;margin:0 auto;}
+
+/*8条船*/
+.boat_01{position: absolute;width:235px;height:280px;top: 260px;left: 960px;background:url(images/boat.png) no-repeat bottom;}
+.boat_02{position: absolute;width:235px;height:280px;top: 450px;left: 790px;background:url(images/boat.png) no-repeat bottom;}
+.boat_03{position: absolute;width:235px;height:280px;top: 150px;left: 700px;background:url(images/boat.png) no-repeat bottom;}
+.boat_04{position: absolute;width:235px;height:280px;top: 450px;left: 550px;background:url(images/boat.png) no-repeat bottom;}
+.boat_05{position: absolute;width:235px;height:280px;top: 150px;left: 420px;background:url(images/boat.png) no-repeat bottom;}
+.boat_06{position: absolute;width:235px;height:280px;top: 450px;left: 280px;background:url(images/boat.png) no-repeat bottom;}
+.boat_07{position: absolute;width:235px;height:280px;top: 150px;left: 140px;background:url(images/boat.png) no-repeat bottom;}
+.boat_08{position: absolute;width:235px;height:280px;top: 450px;left: 0;background:url(images/boat.png) no-repeat bottom;}
+
+/*船内 */
+.mishu{width:188px;color:#bc2300;text-align: center;font-size:22.48px;margin: 0;}
+.head{width:54px;height:54px;border-radius:27px;margin-left:65px;margin-top: 20px;}
+.ico{border-radius:50%;width:100%}
+.river .nick{width: 135px;color:white;text-align: center;font-family: "Microsoft YaHei";margin-top: 9px;height: 21px;overflow: hidden;margin-left: 27px;}
+
+/*家族榜*/
+.family{width:850px;height:760px;position: relative;top: 4388px;margin: auto}
+.list_family{margin: 0;padding: 0;font-size: 24.88px;color:#2f9669;line-height: 73px;list-style:none;}
+.list_family li{height:73px}
+.family .seq{width: 250px;text-align: center;display: inline-block;color:white;font-size: 20px;background:url(images/green.png) no-repeat center;}
+.family li:nth-child(-n + 3) .seq{background-image:url(images/green_top3.png);color:#2f9669;}
+.name{margin-left: 75px;width: 300px;display: inline-block;overflow:  hidden;vertical-align: middle;white-space: nowrap;}
+
+/*单人榜：zblist是主播榜；yhlist是用户榜*/
+.solo{position: relative;top: 7290px;width:1090px;height:550px;margin:0 auto}
+.solo ul{float: left;padding:0;margin:20px 0 0 0;font-size: 22.36px;line-height: 65px;width: 525px;height: 550px;list-style:none;}
+.solo ul li{height:65px}
+.solo .zblist .seq{width: 190px;text-align: center;display: inline-block;color:white;font-size: 20px;background:url(images/green.png) no-repeat center;}
+.solo .zblist li:nth-child(-n + 3) .seq{background-image:url(images/green_top3.png);color:#2f9669}
+.solo .yhlist .seq{width: 190px;text-align: center;display: inline-block;color:white;font-size: 20px;background:url(images/yellow.png) no-repeat center;}
+.solo .yhlist li:nth-child(-n + 3) .seq{background-image:url(images/yellow_top3.png);color:#2f9669}
+.solo .nick{width: 200px;line-height: 65px;display: inline-block;overflow:  hidden;vertical-align: middle;white-space: nowrap;}
+.zblist{color:#2f9669;}
+.yhlist{color:#967f2f}
+ a{color: #2f9669;text-decoration: none;display: inline-block;}
+ 
